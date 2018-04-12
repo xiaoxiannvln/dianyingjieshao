@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*统一设置*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*主内容区*/
+#main {
+	width: 960px;
+	border:1px solid #ccc;
+	margin: 50px auto;
+}
+
+/*标题*/
+#title {
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	background: #613712;
+}
+
+/*内容区*/
+#content {
+	width: 596px;
+	margin: 50px auto;	
+}
+
+/*图片列表*/
+#content #pic {
+	width: 656px;
+	overflow: hidden;
+}
+
+#content #pic img {
+	display: block;
+	float: left;
+	margin-right: 60px;
+	padding: 2px;
+	cursor: pointer;
+}
+
+/*高亮样式*/
+.select {
+	border:2px solid yellow;
+	padding: 0!important;
+}
+
+/*电影文字内容*/
+#jieshao {
+	margin-top: 50px;
+	font-size: 14px;	
+}
+
+#jieshao h1 {
+	font-size: 20px;
+}
+
+#jieshao .wenzi {
+	display: none;
+}
